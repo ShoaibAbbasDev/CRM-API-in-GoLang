@@ -1,0 +1,17 @@
+go in the migrate folder run the fwollwing command "go run migate.go".
+for running project run "go run main.go"
+url "localhost:8080/companies/
+list of routes:
+request type:   routes
+POST   /create/company           --> github.com/ShoaibDevsinc/go-project/controllers.Create_company (3 handlers)
+POST   /company/:id/create/employee --> github.com/ShoaibDevsinc/go-project/controllers.Create_employee (3 handlers)
+GET    /show/company/:id         --> github.com/ShoaibDevsinc/go-project/controllers.Get_company (3 handlers)
+GET    /companies                --> github.com/ShoaibDevsinc/go-project/controllers.Get_companies (3 handlers)
+GET    /employees                --> github.com/ShoaibDevsinc/go-project/controllers.Get_employees (3 handlers)
+GET    /show/employee/:id        --> github.com/ShoaibDevsinc/go-project/controllers.Get_employee (3 handlers)
+GET    /show/company/:id/employee --> github.com/ShoaibDevsinc/go-project/controllers.Get_company_employees (3 handlers)
+POST   /update/company/:id       --> github.com/ShoaibDevsinc/go-project/controllers.Update_company (3 handlers)
+POST   /update/employee/:id      --> github.com/ShoaibDevsinc/go-project/controllers.Update_employee (3 handlers)
+DELETE /remove/employee/:id      --> github.com/ShoaibDevsinc/go-project/controllers.Delete_employee (3 handlers)
+DELETE /remove/company/:id       --> github.com/ShoaibDevsinc/go-project/controllers.Delete_company (3 handlers)
+
